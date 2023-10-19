@@ -1,0 +1,19 @@
+//- base.pug or layout.pug
+doctype html
+html
+  head
+    title MJ Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/img/logo1.png")
+            li #[a(href = '/home') Home]
+            li #[a(href = '/about') About]
+            li #[a(href = '/services') Services]
+            li #[a(href = '/contact') Contact us]
+    block content
+    section#footer 
+        p Copyright © mjAcademy.com

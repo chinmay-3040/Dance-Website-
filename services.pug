@@ -1,0 +1,29 @@
+//- continuing the base.pug
+extends base.pug  
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+      include ../static/styleServices.css
+
+block content
+    h2 Services
+    div.container
+        div.innerContainer
+            h3 Class Schedules
+            p Working days: 5pm to 10pm
+            p Weekend     : 11am to 4pm
+        div.innerContainer
+            h3 Dance Styles
+            p Ballet
+            p Hip-Hop
+            p Classical
+            p Cultural
+        div.innerContainer
+            h3 Instructors
+            p Michael Jackson
+            p Martha Graham
+            p Prabhu Deva

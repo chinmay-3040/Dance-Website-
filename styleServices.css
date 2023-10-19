@@ -1,0 +1,44 @@
+
+h2{
+    padding: 20px;
+    text-align: center;
+}
+h3{
+    text-align:center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+p{
+    padding: 3px;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    justify-content: center; 
+    /* align-items: center; */
+    height: 600px;
+   
+    /* width:70%; */
+    text-align: center;
+}
+
+.innerContainer{
+    height: 170px;
+    width:28%;
+    border:2px solid black;
+    padding-top: 15px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+/* .innerContainer:hover{
+    height: 173px;
+    width:29.15%;
+    border:2px solid black;
+    padding-top: 15px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    background-color: gray;
+} */
+

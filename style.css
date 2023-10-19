@@ -1,0 +1,182 @@
+
+*{
+    
+    margin : 0;
+    box-sizing: border-box;
+    padding:0;
+}
+
+@font-face {
+    font-family: 'Noto';
+    src: url('static\Noto\NotoSans-Black.ttf.woff') format('woff');
+    font-family: 'Mohave';
+    src: url('static\Mohave\Mohave-Italic-VariableFont_wght.ttf') format('woff');
+  }
+  
+  body {
+    font-family: 'Noto', sans-serif;
+  }
+
+#logo{
+    display: flex;
+    color:white;
+    align-items: center;
+    margin:0 14px;
+
+}
+
+#logo img{
+    height:42px;
+    /* filter : invert(1); */
+}
+  
+
+#navbar{
+    font-family: 'Noto', sans-serif;
+    background-color: rgb(21, 21, 21);;
+    color:white;
+    padding : 15px 14px;
+}
+
+#navbar ul{
+     display: flex;
+     flex-direction: row;
+     /* justify-content: center; */
+     align-items: center;
+}
+
+#navbar li{
+     list-style: none; /*to remove the spots at the begining */
+
+}
+
+#navbar li a{
+    color : white;
+    text-decoration : none;  /* to remove underlines*/
+    padding : 3px 10px;
+    font-size: 1.1rem;
+}
+
+#navbar li a:hover{
+    color : gray;
+    
+}
+
+
+#introSection {
+    font-family: 'Mohave', sans-serif;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 35px;
+    align-items: center;
+    background: center / cover no-repeat url("/static/bg2.jpg");
+    height: 300px;
+}
+
+
+#introSection div.small{
+    font-size: 27px;
+}
+
+#missionSection{
+    
+    background-color: grey;
+    /* background-color: white(82, 81, 81); */
+    /* height:400px; */
+    
+}
+
+
+
+#missionSection h2{
+    
+    align-items: center;
+    text-align: center;
+    padding-top : 12px;
+}
+
+
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    
+    border-radius: 10px;
+    width:30%;
+    margin:25px 20px;
+    height: 250px;
+    margin-bottom: 35px;
+}
+
+
+.card-box{
+    padding-top:25px;
+    display: flex;
+}
+.card-content p{
+   font-size: 18px;
+   font-weight: 500;
+}
+.card-box .card-content p{
+    padding-right: 10px;
+}
+.card-img{
+   
+    height : 130px;
+    padding:0 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card:hover{
+    background-color: rgb(82, 81, 81);
+}
+
+
+
+.card h3{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+#sponserSection{
+    /* height:300px; */
+    background-color: rgb(82, 81, 81);
+    text-align: center;
+    padding-top : 30px;
+    padding-bottom : 50px;
+}
+
+#sponsers{
+    height:140px;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.spImage{
+    height:50px;
+    margin:20px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height:50px;
+    color:rgb(100, 100, 100);
+    background-color: rgb(60, 59, 59);
+    text-align: center;
+    padding-top : 12px;
+}
+#footer p{
+    margin-bottom: 10px;
+}

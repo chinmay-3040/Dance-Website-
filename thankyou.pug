@@ -1,0 +1,16 @@
+//- continuing the base.pug
+extends base.pug  
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+      include ../static/styleAbout.css
+
+block content
+    div.container
+        div.innerContainer
+           h2 Your form submitted to our database!  
+            
